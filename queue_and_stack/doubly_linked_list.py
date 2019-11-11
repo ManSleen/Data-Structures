@@ -8,6 +8,9 @@ class ListNode:
         self.prev = prev
         self.next = next
 
+    def __str__(self):
+        return f"value: {self.value}"
+
     """Wrap the given value in a ListNode and insert it
     after this node. Note that this node could already
     have a next node it is point to."""
