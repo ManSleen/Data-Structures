@@ -23,16 +23,3 @@ class Queue:
 
     def len(self):
         return self.size
-
-
-q = Queue()
-
-q.enqueue(1)
-print(q)
-q.enqueue(2)
-print(q)
-q.enqueue(3)
-print(q)
-
-q.dequeue()
-print(q)
